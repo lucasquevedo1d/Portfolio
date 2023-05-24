@@ -1,5 +1,5 @@
 import React from 'react'
-import { City, EmailAdress, EmailPosition, HoverIcons, LocationTitle, Main, PhoneNumber, PhoneTitle, PositionContact, SpaceGithub, SpaceLinkedin, SpaceSocialMedia, SpaceWhatsapp, TitleContact } from './styled'
+import { City, EmailAdress, EmailPosition, LocationTitle, Main, PhoneNumber, PhoneTitle, PositionContact, SpaceGithub, SpaceLinkedin, SpaceSocialMedia, SpaceWhatsapp, TitleContact } from './styled'
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
