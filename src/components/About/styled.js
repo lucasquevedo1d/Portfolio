@@ -9,7 +9,7 @@ min-height: 500px;
 width: 100%;
 
 ${media.tablet`
-width: 750px;
+width: 788px;
 margin: 50 auto;
 
 img{

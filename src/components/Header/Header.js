@@ -2,6 +2,7 @@ import React, {useState}  from 'react';
 import { HeaderTitle, HeaderTitle2, MenuResponsive, SpaceButton } from './styled';
 import { Header2 } from './styled';
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
+import {Link} from 'react-scroll'
 
 
 const Header = () => {
@@ -21,11 +22,21 @@ const Header = () => {
           <HeaderTitle>Lucas</HeaderTitle>
           <HeaderTitle2>Quevedo</HeaderTitle2>
           <SpaceButton show={show}>
-          <li sx={{color:'black', bgcolor:'white'}} ><a href='#Home'>Inicio</a></li>
-          <li sx={{color:'black', bgcolor:'white'}} ><a href='#About'>Sobre Mim</a></li>
-          <li sx={{color:'black', bgcolor:'white'}} ><a href='#Projects'>Projetos</a></li>
-          <li sx={{color:'black', bgcolor:'white'}} ><a href='#Skills'>Conhecimentos</a></li>
-          <li sx={{color:'black', bgcolor:'white'}} ><a href='#Contact'>Contato</a></li>
+          <li sx={{color:'black', bgcolor:'white'}} >
+            <Link to="Home" spy={true} smooth={true} offset={-250}duration={500}>Inicio</Link>
+            </li>
+          <li sx={{color:'black', bgcolor:'white'}} >
+            <Link to="About" spy={true} smooth={true} offset={-100}duration={500}>Sobre Mim</Link>
+            </li>
+          <li sx={{color:'black', bgcolor:'white'}} >
+          <Link to="Projects" spy={true} smooth={true} offset={-100}duration={500}>Projetos</Link>
+            </li>
+          <li sx={{color:'black', bgcolor:'white'}} >
+            <Link to="Skills" spy={true} smooth={true} offset={-100}duration={500}>Conhecimentos</Link>
+            </li>
+          <li sx={{color:'black', bgcolor:'white'}} >
+            <Link to="Contact" spy={true} smooth={true} offset={-100}duration={500}>Contato</Link>
+            </li>
 
           </SpaceButton>    
       </Header2>
