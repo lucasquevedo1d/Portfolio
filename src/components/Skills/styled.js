@@ -24,7 +24,7 @@ h1{
 `}
 
 ${media.tablet`
-width: 768px;
+width: 788px;
 h1{
     margin-left:120px ;
 }
@@ -46,9 +46,6 @@ ${media.tablet`
 width: 250px;
 `}
 
-${media.mobile`
-/* width: 50%; */
-`}
 :hover{
     transform: scale(1.1);
     transition: calc(0.7s);

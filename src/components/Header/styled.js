@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { media } from "../../assets/media/media";
 
+
 export const Header2 = styled.header`
 position:fixed ;
 margin-top: -220px;
@@ -65,6 +66,7 @@ list-style: none;
 overflow: hidden;
 display: flex;
 padding-right:10px;
+cursor: pointer;
 
 li a{
     display: block;
@@ -74,7 +76,6 @@ li a{
     color: black;
     padding: 5px;
     width: 100%;
-    /* margin-left: 180px; */
 :hover{
     transition: calc(1s);
     transform: scale(1.1);
@@ -87,24 +88,23 @@ ${media.tablet`
 display: ${({ show }) => show ? 'block' : 'none'};
     position: fixed;
     z-index: 999;
-    top: 30px;
-    left: -20px;
+    top: 40px;
     overflow: hidden;
     height: 100%;
-    width: 300px;
+    width: 120%;
     padding: 0;
+    opacity: 0.9;
     background-color: white;
     color: black;
     margin-left: -100px;
     margin-top: 50px;
-
-
+    
 
     li a{
         margin-left: 30px;
         padding: 10px;
         color: black;
-        font-size:small;
+        font-size:large;
 
     }
 

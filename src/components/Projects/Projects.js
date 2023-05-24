@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { CardProjects, Main, SpaceProjects, TextHover, TitleProjects } from './styled'
 import Ifuture from '../../assets/Ifuture.png'
 import NG from '../../assets/caixa.png.jpg'
@@ -6,14 +6,11 @@ import Alfood from '../../assets/alfood11.jpg'
 import Olimpics from '../../assets/olimpics.jpg'
 import Lama from '../../assets/Lama.jpg'
 import Pizza from '../../assets/comida3.jpg'
-import { CircularProgress } from '@mui/material'
 
 
 const Projects = () => {
-    const [loading, setLoading] = useState(true)
   return (
     <div>
-        
         <Main>
         <h1><TitleProjects>Projetos</TitleProjects></h1>
         <br/>
@@ -82,7 +79,6 @@ const Projects = () => {
         </SpaceProjects>
         <br/>
         </Main>
-      
     </div>
   )
 }

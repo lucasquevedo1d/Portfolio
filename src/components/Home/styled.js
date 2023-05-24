@@ -11,7 +11,6 @@ margin-top: 20px;
 ${media.tablet`
 width: 768px;
 height: 200px;
-
 `
 }
 `
@@ -22,7 +21,6 @@ margin-top: 220px;
 font-weight: 1000;
 font-size: 380%;
 ${media.tablet`
-
 margin-top: 220px;
 font-weight: 800;
 font-size: 380%;
@@ -36,7 +34,6 @@ margin-left: 380px;
 font-weight: 100;
 font-size: 380%;
 margin-top: -90px;
-
 ${media.tablet`
 margin-top: -90px;
 display: flex;
@@ -56,7 +53,6 @@ ${media.tablet`
 height: 240px;
 width: 240px;
 margin-left: 420px;
-
 `}
 `
 export const HomeParagraph = styled.p`
@@ -67,8 +63,6 @@ margin-left:15px;
 ${media.tablet`
 margin-top: 120px;
 margin-left: 120px;
-
-
 `}
 
 `
@@ -79,11 +73,8 @@ margin-top: -110px;
 margin-bottom: 10px;
 border: solid 1px gray;
 margin-left: -15px;
-
-
 ${media.tablet`
 display: none;
-
 `}
 `
 export const SpaceParagraph= styled.div`
@@ -93,7 +84,6 @@ margin-top: -185px;
 ${media.tablet`
     margin-left: 15px;
     margin-top:-200px ;
-
 `}
 `
 

@@ -2,7 +2,7 @@ import React, {useState}  from 'react';
 import { HeaderTitle, HeaderTitle2, MenuResponsive, SpaceButton } from './styled';
 import { Header2 } from './styled';
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
-import {Link} from 'react-scroll'
+import { Link } from 'react-scroll'
 
 
 const Header = () => {
@@ -13,7 +13,10 @@ const Header = () => {
     setShow(!show)
   }
 
-  console.log(show)
+  const closeMenu = () =>{
+    setShow(false)
+  }
+
     return (
       <Header2 sx={{bgcolor:'white'}}>
         <MenuResponsive>

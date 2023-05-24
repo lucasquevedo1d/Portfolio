@@ -1,5 +1,5 @@
 import React from 'react'
-import { City, EmailAdress, EmailPosition, HoverIcons, LocationTitle, Main, PargraphGitHub, PhoneNumber, PhoneTitle, PositionContact, SpaceGithub, SpaceLinkedin, SpaceSocialMedia, SpaceWhatsapp, TitleContact } from './styled'
+import { City, EmailAdress, EmailPosition, HoverIcons, LocationTitle, Main, PhoneNumber, PhoneTitle, PositionContact, SpaceGithub, SpaceLinkedin, SpaceSocialMedia, SpaceWhatsapp, TitleContact } from './styled'
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
@@ -33,12 +33,12 @@ function Copyright(props) {
                 <City>Pelotas/RS</City>
                 </div>
                 <div>
-                    <EmailOutlinedIcon sx={{ height: '300px', width: "50px" }} />
+                    <EmailOutlinedIcon sx={{ height: '300px', width: "50px", ml:"20px" }} />
                     <EmailPosition>Email</EmailPosition>
                     <EmailAdress>lucasquevedo1d@gmail.com</EmailAdress>
                 </div>
                 <div>
-                <LocalPhoneOutlinedIcon sx={{ height: '300px', width: "50px", ml:'-100px' }} />
+                <LocalPhoneOutlinedIcon sx={{ height: '300px', width: "50px", ml:'-50px' }} />
                 <PhoneTitle>Telefone</PhoneTitle>
                 <PhoneNumber>(53) 98465-9744</PhoneNumber>
                 </div>

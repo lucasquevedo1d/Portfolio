@@ -14,7 +14,6 @@ color: white;
 font-family: 'Poppins', sans-serif;
 ${media.mobile`
 width: 768px;
-
 `}
 
 ${media.tablet`
@@ -23,7 +22,6 @@ ${media.tablet`
 
 ${media.desktop`
 width: 1370px;
-
 `}
 `
 
@@ -42,15 +40,12 @@ display: flex;
 justify-content:space-evenly;
 margin-top: -100px;
 margin-left: -50px;
-${media.tablet`
-
-`}
 `
 
 export const EmailPosition = styled.h5`
 font-family: 'Poppins', sans-serif;
 margin-top: -130px;
-margin-left: 8px;
+margin-left: 25px;
 `
 export const EmailAdress = styled.p`
 font-family: 'Poppins', sans-serif;
@@ -58,15 +53,16 @@ margin-top: -15px;
 margin-left: -80px;
 ${media.tablet`
 font-size:small;
+margin-left:-41px;
 `}
 `
 export const PhoneNumber = styled.p`
 font-family: 'Poppins', sans-serif;
 margin-top: -15px;
-margin-left: -140px;
+margin-left: -80px;
 color: white;
 ${media.tablet`
-margin-left: -115px;
+margin-left: -65px;
 font-size:small;
 `}
 `
@@ -74,10 +70,7 @@ font-size:small;
 export const PhoneTitle = styled.h5`
 font-family: 'Poppins', sans-serif;
 margin-top: -130px;
-margin-left: -100px;
-${media.tablet`
-/* margin-left: -45px */
-`}
+margin-left: -40px;
 `
 
 export const Font = styled.div`
@@ -137,5 +130,4 @@ export const PargraphGitHub = styled.p`
 margin-left: -200px;
 font-size: x-small;
 padding: 2px;
-
 `
